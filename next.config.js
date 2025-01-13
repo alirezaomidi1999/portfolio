@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 
-const basePath =
-  process.env.NODE_ENV === "production" ? "/portfolio" : "";
+const basePath =  
+ process.env.NODE_ENV === "production" ? "/portfolio" : "";
 const nextConfig = {
   reactStrictMode: false,
   output: "export",
-  basePath,
+  basePath:basePath,
   env:{
     basePath
   },
