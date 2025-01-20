@@ -2,6 +2,7 @@
   "name": "new-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alirezaomidi1999.github.io/portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

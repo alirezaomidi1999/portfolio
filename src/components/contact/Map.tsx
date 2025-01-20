@@ -7,7 +7,7 @@ import { Position } from "@/types/Interfaces";
 
 
 const Map = ({
-  position = { lat: 35.654731, lng: 51.480935 },
+  position = { lat: 35.656976, lng: 51.482507 },
 }: {
   position?: Position;
 }) => {
