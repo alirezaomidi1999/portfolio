@@ -1,17 +1,16 @@
-"use client";
-import React, { useEffect } from "react";
+import React from "react";
 import Header from "@/components/header/Header";
 import TimeLineItem from "@/components/ui/TimeLineItem";
 import { allProjects } from "@/data/allProjects";
-import useProjectStore from "@/stores/ProjectsStore";
+import { Metadata } from "next";
+import ClientSideEffect from "@/app/projects/ClientSideEffect";
+
+export const metadata: Metadata = {
+  title: "Projects - Alireza Omidi",
+  description: "Check out my portfolio of completed and ongoing projects.",
+};
 
 export default function page() {
-  const { clearStoredProjects } = useProjectStore();
-  useEffect(() => {
-    return () => {
-      clearStoredProjects();
-    };
-  }, []);
   return (
     <div className="animate-fadeIn p-[30px]">
       <Header title="Projects" />
@@ -30,6 +29,7 @@ export default function page() {
           ))}
         </ol>
       </div>
+      <ClientSideEffect />
     </div>
   );
 }
