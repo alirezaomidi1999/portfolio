@@ -2,7 +2,7 @@
 import React from "react";
 import Header from "@/components/header/Header";
 import ServiceCard from "@/components/home/ServiceCard";
-import { serviceItems } from "@/data/serviceItems";
+import {serviceItems} from "@/data/serviceItems";
 
 function page() {
   return (

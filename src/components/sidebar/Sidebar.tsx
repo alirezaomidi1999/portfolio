@@ -4,7 +4,7 @@ import Image from "next/image";
 import SidebarItem from "./SidebarItem";
 import { useIsSmallScreen } from "@/hooks/UseIsSmallScreen";
 import { Icons } from "@/utils/Icons";
-import { sidebarInfo } from "@/data/sidebarInfo";
+import {sidebarInfo} from "@/data/sidebarInfo";
 
 export default function Sidebar() {
   const [showContacts, setShowContacts] = useState<boolean>(false);
