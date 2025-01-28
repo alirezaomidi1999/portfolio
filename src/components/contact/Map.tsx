@@ -3,15 +3,18 @@ import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import { Position } from "@/types/Interfaces";
 
+export type Position = {
+  lat: number;
+  lng: number;
+};
 
 const Map = ({
   position = { lat: 35.656976, lng: 51.482507 },
 }: {
   position?: Position;
 }) => {
-  const basePath = process.env.basePath ?? '';
+  const basePath = process.env.basePath ?? "";
   const mapMarkerIcon = new L.Icon({
     iconUrl: `${basePath}/images/map-marker.svg`,
     iconSize: [32, 32],

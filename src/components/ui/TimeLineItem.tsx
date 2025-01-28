@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import ProjectBox from "@/components/projects/ProjectBox";
-import { TimeLineDetails } from "@/types/Interfaces";
+import { TimeLineDetails } from "@/types/types";
 import useProjectStore from "@/stores/ProjectsStore";
 
 export default function TimeLineItem({

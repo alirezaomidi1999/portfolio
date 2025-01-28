@@ -1,9 +1,9 @@
-export interface Item {
+export type Item = {
   title: string;
   description: string;
   Icon: React.ElementType;
-}
-export interface TimeLineDetails {
+};
+export type TimeLineDetails = {
   title: string;
   description: string;
   year?: string;
@@ -12,14 +12,4 @@ export interface TimeLineDetails {
   image?: string;
   hasImage?: boolean;
   projects?: string[];
-}
-export type Position = {
-  lat: number;
-  lng: number;
 };
-
-export interface ProjectItem {
-  src: string;
-  alt: string;
-  link: string;
-}

@@ -3,7 +3,12 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Icons } from "@/utils/Icons";
-import { ProjectItem } from "@/types/Interfaces";
+
+ type ProjectItem = {
+  src: string;
+  alt: string;
+  link: string;
+};
 
 export default function ProjectBox({ src, alt, link }: ProjectItem) {
   return (

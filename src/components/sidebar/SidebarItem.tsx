@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Item } from "@/types/Interfaces";
+import { Item } from "@/types/types";
 
 export default function SidebarItem({ title, description, Icon }: Item) {
   return (

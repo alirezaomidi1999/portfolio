@@ -1,4 +1,4 @@
-import { Item } from "@/types/Interfaces";
+import { Item } from "@/types/types";
 import { Icons } from "@/utils/Icons";
 
 export const sideBarInfo: Item[] = [

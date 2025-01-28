@@ -1,12 +1,12 @@
-import { TimeLineDetails } from "@/types/Interfaces";
+import { TimeLineDetails } from "@/types/types";
 
-export const WorkExperiences: TimeLineDetails[] = [
+export const workExperiences: TimeLineDetails[] = [
   {
     title: "Front-End Developer at Paya",
-    year: "2023 - present",
+    year: "June 2023 — December 2024",
     description:
       "At Paya, I worked on projects that helped me enhance my skills in building responsive and scalable applications. I developed an admin dashboard with React, React Query,Prime React and MUI, created data analysis dashboards with Highcharts and ApexCharts, and built a video streaming platform using HLSPlayer and PrimeReact. These projects improved my abilities in application design, development, and optimization.",
-      projects: [
+    projects: [
       "Bi Dashboard",
       "Dashboard Admin Project",
       "Live Stream Project",
@@ -23,6 +23,6 @@ export const WorkExperiences: TimeLineDetails[] = [
     year: "February 2021 - May 2021",
     description:
       "At Arman IT, I worked on implementing authentication and authorization systems, handling forms, and developing dashboards for analyzing charts and stock market data. These projects enhanced my skills in secure application development and data visualization.",
-      projects: ["Stock Market Dashboard"],
+    projects: ["Stock Market Dashboard"],
   },
 ];

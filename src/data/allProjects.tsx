@@ -1,4 +1,4 @@
-import { TimeLineDetails } from "@/types/Interfaces";
+import { TimeLineDetails } from "@/types/types";
 
 export const allProjects: TimeLineDetails[] = [
   {
