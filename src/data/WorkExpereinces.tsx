@@ -26,3 +26,4 @@ export const workExperiences: TimeLineDetails[] = [
     projects: ["Stock Market Dashboard"],
   },
 ];
+
