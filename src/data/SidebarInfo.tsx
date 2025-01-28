@@ -1,7 +1,7 @@
 import { Item } from "@/types/types";
 import { Icons } from "@/utils/Icons";
 
-export const sideBarInfo: Item[] = [
+export const sidebarInfo: Item[] = [
   {
     title: "Gmail",
     description: "alirezaomidi2299",

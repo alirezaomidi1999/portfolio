@@ -3,7 +3,7 @@ import Header from "@/components/header/Header";
 import TimeLineItem from "@/components/ui/TimeLineItem";
 import ResumeSection from "@/components/resume/ResumeSection";
 import { Metadata } from "next";
-import { workExperiences } from "@/data/workExpereinces";
+import { workExperiences } from "@/data/workExperiences";
 
 export const metadata: Metadata = {
   title: "Resume - Alireza Omidi",
