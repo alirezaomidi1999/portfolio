@@ -10,6 +10,7 @@ export const workExperiences: TimeLineDetails[] = [
       "Bi Dashboard",
       "Dashboard Admin Project",
       "Live Stream Project",
+      "Local Tv"
     ],
   },
   {

@@ -24,7 +24,7 @@ export default function ProjectBox({ src, alt, link }: ProjectItem) {
 
         <div className="absolute left-[50%] top-[50%] z-[5] -translate-x-1/2 -translate-y-1/2 rounded-[12px] bg-jet p-[18px] opacity-0 duration-transition-1 ease-transition-1 group-hover:opacity-100">
           {link !== "" ? (
-            <Link href={link}>
+            <Link href={link} target="_blank">
               <Icons.Eyeoutline className="text-orange-yellow-crayola" />
             </Link>
           ) : (

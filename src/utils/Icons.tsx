@@ -23,6 +23,8 @@ import {
   colorPaletteOutline,
   chevronDownOutline,
   chevronUpOutline,
+  logoLinkedin,
+  logoGithub,
 } from "ionicons/icons";
 
 export const Icons = {
@@ -64,5 +66,11 @@ export const Icons = {
   ),
   ChevronUpOutline: (props: { className?: string }) => (
     <IonIcon icon={chevronUpOutline} {...props} />
+  ),
+  LogoLinkedin: (props: { className?: string }) => (
+    <IonIcon icon={logoLinkedin} {...props} />
+  ),
+  LogoGithub: (props: { className?: string }) => (
+    <IonIcon icon={logoGithub} {...props} />
   ),
 };

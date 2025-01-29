@@ -20,6 +20,12 @@ export const allProjects: TimeLineDetails[] = [
       "Developed a user-friendly live streaming platform using HLSPlayer and PrimeReact. Created a user interface for managing CCTV feeds and camera settings.",
   },
   {
+    title: "Local Tv",
+    year: "November 2024 - December 2024 (3 Months)",
+    description:
+      "Developed a video management system allowing users to upload videos and schedule them for playback at specific times using a custom conductor (playlist) interface. Implemented the functionality to allow users to play multiple videos simultaneously. Added an option for users to enable or disable subtitles for their videos.",
+  },
+  {
     title: "Stock Market Dashboard",
     year: "December 2022 - March 2023 (3 Months)",
     description:

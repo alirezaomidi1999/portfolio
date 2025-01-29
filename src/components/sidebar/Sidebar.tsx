@@ -4,7 +4,9 @@ import Image from "next/image";
 import SidebarItem from "./SidebarItem";
 import { useIsSmallScreen } from "@/hooks/UseIsSmallScreen";
 import { Icons } from "@/utils/Icons";
-import {sidebarInfo} from "@/data/sidebarInfo";
+import { sidebarInfo } from "@/data/sidebarInfo";
+import { IonIcon } from "@ionic/react";
+import Link from "next/link";
 
 export default function Sidebar() {
   const [showContacts, setShowContacts] = useState<boolean>(false);
@@ -56,7 +58,7 @@ export default function Sidebar() {
         <div
           className={`overflow-hidden duration-transition-2 ease-transition-2 ${
             showContacts
-              ? "h-[350px] pt-8 opacity-100 sm:h-[180px]"
+              ? "h-[430px] pt-8 xl:pt-0 opacity-100 sm:h-[280px]"
               : "h-0 opacity-0"
           } xl:h-auto xl:max-h-full xl:opacity-100`}
         >
@@ -71,9 +73,19 @@ export default function Sidebar() {
               />
             ))}
           </div>
+          <div className="pt-9">
+            <div className="h-[1px] w-full bg-jet xl:hidden"></div>
+            <div className="flex justify-start gap-4 pt-9 xl:justify-center xl:pt-0">
+              <Link href={"https://github.com/alirezaomidi1999"} target="_blank">
+                <Icons.LogoGithub className="size-5 cursor-pointer text-light-gray-70" />
+              </Link>
+              <Link href={"https://www.linkedin.com/in/alireza-omidi1999"} target="_blank">
+                <Icons.LogoLinkedin className="size-5 cursor-pointer text-light-gray-70" />
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </aside>
   );
 }
-
