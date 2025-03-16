@@ -15,7 +15,7 @@ export const workExperiences: TimeLineDetails[] = [
   },
   {
     title: "Front-End Developer at Armanati",
-    year: "December 2021 — Jan 2023",
+    year: "December 2021 — Sep 2022",
     description:
       "At Armanati, I worked on implementing authentication systems, focusing on user login, registration, and session management. I gained experience with forms, handling tasks like data input, validation, and displaying error messages to ensure a smooth user experience. I also assisted in creating dashboards that displayed stock market data using charts and tables, making it easier for users to view and analyze financial information. I worked closely with APIs to fetch and display real-time data, ensuring the dashboards stayed up-to-date. These tasks helped me improve my skills in form handling, working with dynamic data, and displaying financial information effectively.",
     projects: ["Stock Market Dashboard"],
