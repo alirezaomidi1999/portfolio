@@ -5,26 +5,19 @@ export const workExperiences: TimeLineDetails[] = [
     title: "Front-End Developer at Paya",
     year: "June 2023 — December 2024",
     description:
-      "At Paya, I worked on projects that helped me enhance my skills in building responsive and scalable applications. I developed an admin dashboard with React, React Query,Prime React and MUI, created data analysis dashboards with Highcharts and ApexCharts, and built a video streaming platform using HLSPlayer and PrimeReact. These projects improved my abilities in application design, development, and optimization.",
+      "At Paya, I worked on projects that strengthened my skills in building responsive and scalable applications. I developed an admin dashboard using React, React Query, PrimeReact, and MUI, featuring user management and reporting tools. I also created data analysis dashboards with Highcharts and ApexCharts, enabling interactive data visualization. Additionally, I built a video streaming platform with HLSPlayer and PrimeReact, supporting smooth playback and video scheduling. These projects enhanced my expertise in application design, performance optimization, and state management.",
     projects: [
       "Bi Dashboard",
       "Dashboard Admin Project",
       "Live Stream Project",
-      "Local Tv"
+      "Local Tv",
     ],
   },
   {
-    title: "Web Freelance",
-    year: "2021 - 2023",
+    title: "Front-End Developer at Armanati",
+    year: "December 2021 — Jan 2023",
     description:
-      "Successfully completed over 10 projects, delivering high-quality and performance-optimized web applications. Worked extensively with key frontend technologies such as React, JavaScript, TypeScript, Redux, and Tailwind CSS to create responsive and modern user interfaces. Improved the quality and performance of projects by implementing clean code practices, optimizing loading times, and enhancing user experience.",
-  },
-  {
-    title: "Internship Front-End Developer at Arman It",
-    year: "February 2021 - May 2021",
-    description:
-      "At Arman IT, I worked on implementing authentication and authorization systems, handling forms, and developing dashboards for analyzing charts and stock market data. These projects enhanced my skills in secure application development and data visualization.",
+      "At Armanati, I worked on implementing authentication systems, focusing on user login, registration, and session management. I gained experience with forms, handling tasks like data input, validation, and displaying error messages to ensure a smooth user experience. I also assisted in creating dashboards that displayed stock market data using charts and tables, making it easier for users to view and analyze financial information. I worked closely with APIs to fetch and display real-time data, ensuring the dashboards stayed up-to-date. These tasks helped me improve my skills in form handling, working with dynamic data, and displaying financial information effectively.",
     projects: ["Stock Market Dashboard"],
   },
 ];
-

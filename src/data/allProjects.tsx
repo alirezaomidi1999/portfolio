@@ -27,7 +27,7 @@ export const allProjects: TimeLineDetails[] = [
   },
   {
     title: "Stock Market Dashboard",
-    year: "December 2022 - March 2023 (3 Months)",
+    year: "December 2021 — Jan 2023 (14 Month)",
     description:
       "Developed a dynamic stock market dashboard for analyzing market data using React, Axios Interceptors, and React Formik. Implemented interactive features for data visualization and enhanced user experience with real-time chart updates.",
   },
