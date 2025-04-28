@@ -3,7 +3,7 @@ import { TimeLineDetails } from "@/types/types";
 export const allProjects: TimeLineDetails[] = [
   {
     title: "Bi Dashboard",
-    year: "January 2024 - December 2024 (1 Year)",
+    year: "June 2023 - December 2024 (1 Year)",
     description:
       "Designed data visualization dashboards using Highcharts and ApexCharts. Implemented drag-and-drop and resizing functionality with React Grid Layout.",
   },
@@ -27,7 +27,7 @@ export const allProjects: TimeLineDetails[] = [
   },
   {
     title: "Stock Market Dashboard",
-    year: "December 2021 — Sep 2022 (10 Months)",
+    year: "December 2021 — March 2023 (15 Months)",
     description:
       "Developed a dynamic stock market dashboard for analyzing market data using React, Axios Interceptors, and React Formik. Implemented interactive features for data visualization and enhanced user experience with real-time chart updates.",
   },
